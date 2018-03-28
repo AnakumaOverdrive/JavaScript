@@ -1,0 +1,93 @@
+
+html,body,div,p,span,img,a,ul,li,ol,dd,dt,dl,form,textarea,select,fieldset,label,legend,input,button,i,em,font,b,iframe,h1,h2,h3,h4,h5,h6,
+blockquote,pre,code,address,big,cite,del,ins,small,strong,var,u,center,table,thead,tbody,tr,th,td,canvas,caption,legend{
+	margin: 0;
+	padding: 0;
+}
+iframe{
+	border:0;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+	cursor: pointer;
+}
+ul{
+	list-style: none;
+}
+button,input,select,textarea{
+	border: 1px solid #e5e5e5;
+	background-color: #fff;
+	/*font: inherit;
+	color: inherit;*/
+}
+i{
+	font-style: normal;
+}
+body{
+	min-width: 1136px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	padding-top: 20px;
+	border-top: 2px solid #39609B;
+}
+table td{
+	text-align: center;
+}
+table tr{
+	border-bottom: 1px solid #E1E7F0;
+}
+table thead tr{
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+table thead tr th{
+	position: relative;
+	font-size: 13px;
+}
+table tbody tr{
+	height: 32px;
+	padding: 4px 0;
+	text-align: center;
+}
+table tbody tr:hover{
+	background-color: #C6C6C6;
+	color:#fff
+}
+input[type="text"],select{
+	border: 1px solid #333;
+}
+.m-t-10{
+	margin-top: 10px;
+}
+.name{
+	flex: left;
+	width:140px;
+	height: 20px;
+	text-align: right;
+	padding:15px 0 0 0;
+}
+.namecon{
+	float: left;
+	width:100px;
+	height: 20px;
+	text-align: left;
+	padding: 15px 0 0 0;
+}
+.namecon1{
+	float:left;
+	font-size:14px;
+	height:80px;
+	overflow:auto;
+	width:350px;
+	margin: 15px 0 0 0;
+}

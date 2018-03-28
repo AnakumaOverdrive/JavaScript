@@ -1,0 +1,72 @@
+
+
+/*页面弹层遮罩*/
+.mask{margin:0;padding:0;border:none;width:100%;height:100%;background:#333;opacity:0.5;filter:alpha(opacity=60);z-index:9999;position:fixed;top:0;left:0;display:none;}
+
+
+
+
+/*页面弹层*/
+#LoginBox{position:absolute;left:460px;top:50px;background:white;width:600px;z-index:10000;display:none;border:1px solid #84bdf0;}
+.close_btn{font-family:arial;font-size:18px;font-weight:500;color:#2a599e;text-decoration:none;float:right;padding-right:4px;}
+.develop_btn{width:95%;text-align:right;float:left; }
+.title_win{padding:0px 10px;line-height:31px;height:31px;font-weight:bold;color:#0A026F;font-size:14px;margin-bottom:20px;background-image:url(../img/ban_bg.png);font-family:"微软雅黑";}
+.form_info{width:100%;float:left;margin-bottom:10px;}
+.row1{height:25px;width:90%;line-height:25px;padding:0px 30px;}
+.title_blue {color:#16a4c8;font-size:13px;}
+.title_red {color:#FD0000;font-size:13px;}
+
+/*基础信息列表*/
+.basename{width:20%;ling-height:20px;font-size:12px;float:left;color:#565669;border-left:1px solid #e1e1ff;border-top:1px solid #e1e1ff;border-bottom:1px solid #e1e1ff;background-color:#00FFFF;}
+.basecontent{width:35%;ling-height:25px;font-size:12px;float:left;color:#565669;border-top:1px solid #e1e1ff;border-left:1px solid #e1e1ff;border-bottom:1px solid #e1e1ff;background-color:#cccccc;}
+.basecontent2{width:20%;ling-height:25px;font-size:12px;float:left;color:#565669;border-top:1px solid #e1e1ff;border-left:1px solid #e1e1ff;border-right:1px solid #e1e1ff;border-bottom:1px solid #e1e1ff;}
+.basename4{width:20%;ling-height:20px;font-size:12px;float:left;color:#565669;border-left:1px solid #e1e1ff;border-top:1px solid #e1e1ff;border-bottom:1px solid #e1e1ff;}
+.basecontent4{width:35%;ling-height:25px;font-size:12px;float:left;color:#565669;border-top:1px solid #e1e1ff;border-left:1px solid #e1e1ff;border-bottom:1px solid #e1e1ff;}
+.basecontent24{width:20%;ling-height:25px;font-size:12px;float:left;color:#565669;border:1px solid #e1e1ff;}
+
+/*当前监控列表*/
+
+.monitorname{width:10%;ling-height:20px;font-size:12px;float:left;color:#565669;border-left:1px solid #e1e1ff;border-top:1px solid #e1e1ff;border-bottom:1px solid #e1e1ff;text-align: right;}
+
+.monitorcontent{width:20%;ling-height:20px;font-size:12px;float:left;color:#565669;border-top:1px solid #e1e1ff;border-bottom:1px solid #e1e1ff;color:aqua;}
+
+.monitorcontent2{width:20%;ling-height:20px;font-size:12px;float:left;color:#565669;border-top:1px solid #e1e1ff;border-bottom:1px solid #e1e1ff;border-right:1px solid #e1e1ff;color:aqua;}
+
+
+/*当前告警*/
+.emergencyname{width:16%;ling-height:20px;font-size:12px;float:left;color:#FD0000;}
+.emergencycontent{width:80%;ling-height:20px;font-size:12px;float:left;color:#FD0000;text-align:left;}
+
+
+
+/*历史告警列表*/
+
+.recordsname{width:24%;ling-height:20px;font-size:12px;float:left;color:#565669;border-left:1px solid #e1e1ff;border-top:1px solid #e1e1ff;}
+.recordscontent{width:25%;ling-height:25px;font-size:12px;float:left;color:#565669;border-top:1px solid #e1e1ff;border-left:1px solid #e1e1ff;}
+.recordscontent2{width:25%;ling-height:25px;font-size:12px;float:left;color:#565669;border-top:1px solid #e1e1ff;border-right:1px solid #e1e1ff;border-left:1px solid #e1e1ff;}
+.recordsclean{width:74.3%;ling-height:25px;font-size:12px;float:left;color:#565669;border:1px solid #e1e1ff;}
+.recordsname2{width:24%;ling-height:20px;font-size:12px;float:left;color:#565669;border-left:1px solid #e1e1ff;border-top:1px solid #e1e1ff;border-bottom:1px solid #e1e1ff;}
+
+
+
+
+
+.inputBox{padding:1px 3px 6px 3px;width:150px;margin-left:5px;}
+#txtName{height:27px;width:230px;border:none;}
+#txtPwd{height:27px;width:230px;border:none;}
+#loginbtn{color:White;background:#4490f7;text-decoration:none;padding:10px 95px;margin-left:87px;margin-top:40px;border-radius:5px;opacity:0.8;filter:alpha(opacity=80);}
+#example{color:White;text-decoration:none;}
+
+.tablecss th{
+    color:#565669;border:1px solid #e1e1ff;background-color:#EEF1FA;
+}
+.tablecss td{
+   color:#565669;border:1px solid #e1e1ff;
+}
+
+
+
+
+
+
+
